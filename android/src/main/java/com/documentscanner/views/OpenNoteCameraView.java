@@ -82,7 +82,7 @@ public class OpenNoteCameraView extends JavaCameraView implements PictureCallbac
 
     private static OpenNoteCameraView mThis;
 
-    private const float WIDE_SCREEN_RATIO = 1.4;
+    private final float WIDE_SCREEN_RATIO = 1.4;
 
     private OnScannerListener listener = null;
     private OnProcessingListener processingListener = null;
